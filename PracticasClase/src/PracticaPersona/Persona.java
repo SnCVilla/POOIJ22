@@ -18,7 +18,7 @@ public abstract class Persona implements MetodosPersona{
     }
 
     public void setNombre(String nombre) {
-        Nombre = nombre;
+        this.Nombre = nombre;
     }
 
     public String getApellido() {
@@ -26,7 +26,7 @@ public abstract class Persona implements MetodosPersona{
     }
 
     public void setApellido(String apellido) {
-        Apellido = apellido;
+        this.Apellido = apellido;
     }
 
     public int getEdad() {
@@ -34,7 +34,7 @@ public abstract class Persona implements MetodosPersona{
     }
 
     public void setEdad(int edad) {
-        Edad = edad;
+        this.Edad = edad;
     }
 
     public int getPeso() {
@@ -42,7 +42,7 @@ public abstract class Persona implements MetodosPersona{
     }
 
     public void setPeso(int peso) {
-        Peso = peso;
+        this.Peso = peso;
     }
 
     public double getEstatura() {
@@ -50,7 +50,7 @@ public abstract class Persona implements MetodosPersona{
     }
 
     public void setEstatura(double estatura) {
-        Estatura = estatura;
+        this.Estatura = estatura;
     }
 
     public String getDomicilio() {
@@ -58,7 +58,7 @@ public abstract class Persona implements MetodosPersona{
     }
 
     public void setDomicilio(String domicilio) {
-        Domicilio = domicilio;
+        this.Domicilio = domicilio;
     }
 
     public String getNacionalidad() {
@@ -66,10 +66,7 @@ public abstract class Persona implements MetodosPersona{
     }
 
     public void setNacionalidad(String nacionalidad) {
-        Nacionalidad = nacionalidad;
-    }
-    public void MostrarNombre(){
-
+        this.Nacionalidad = nacionalidad;
     }
 }
 

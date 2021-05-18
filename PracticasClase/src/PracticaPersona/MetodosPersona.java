@@ -15,5 +15,7 @@ public interface MetodosPersona {
     public void setDomicilio(String domicilio);
     public String getNacionalidad();
     public void setNacionalidad(String nacionalidad);
+    public default void Nombres(){
 
+    }
 }

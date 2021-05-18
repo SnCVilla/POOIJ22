@@ -63,4 +63,9 @@ public class Administrador extends Persona {
     public String getNacionalidad() {
         return super.getNacionalidad();
     }
+
+    @Override
+    public void Nombres() {
+
+    }
 }
