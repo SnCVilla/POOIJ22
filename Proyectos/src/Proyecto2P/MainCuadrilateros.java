@@ -6,11 +6,11 @@ import java.util.Scanner;
 
 public class MainCuadrilateros {
     public static void main(String[] args) {
-        Scanner sv = new Scanner(System.in);
+
 
         Cuadrado cuadrado = new Cuadrado(5,5,4);
         Rectangulo rectangulo = new Rectangulo(5, 3, 4,6);
-        Trapecio trapecio = new Trapecio(5, 3, 4, 4);
+        Trapecio trapecio = new Trapecio(5, 6 , 4, 4);
         System.out.println("--------------------------------------");
         System.out.println("El area de las figuras es la siguiente: ");
         System.out.println("---------------------------------------");
@@ -24,4 +24,3 @@ public class MainCuadrilateros {
         System.out.println(trapecio.getX()+trapecio.getY()*trapecio.getAlturaT()/2);
     }
 }
-
